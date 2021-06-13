@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileApi", "MobileApi\MobileApi.csproj", "{E585626B-106E-4222-8CD2-0BBEAE1A54F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileApi.Data", "MobileApi.Data\MobileApi.Data.csproj", "{83993FD1-9A6B-4AA8-AD40-CC8E59E7DCF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileApi.Core", "MobileApi.Core\MobileApi.Core.csproj", "{95A1E7F0-55BC-49FF-ADB2-80D16CAF655E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E585626B-106E-4222-8CD2-0BBEAE1A54F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E585626B-106E-4222-8CD2-0BBEAE1A54F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E585626B-106E-4222-8CD2-0BBEAE1A54F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E585626B-106E-4222-8CD2-0BBEAE1A54F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83993FD1-9A6B-4AA8-AD40-CC8E59E7DCF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83993FD1-9A6B-4AA8-AD40-CC8E59E7DCF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83993FD1-9A6B-4AA8-AD40-CC8E59E7DCF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83993FD1-9A6B-4AA8-AD40-CC8E59E7DCF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A1E7F0-55BC-49FF-ADB2-80D16CAF655E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A1E7F0-55BC-49FF-ADB2-80D16CAF655E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A1E7F0-55BC-49FF-ADB2-80D16CAF655E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A1E7F0-55BC-49FF-ADB2-80D16CAF655E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentResults" Version="2.5.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
+        <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MobileApi.Core\MobileApi.Core.csproj" />
+      <ProjectReference Include="..\MobileApi.Data\MobileApi.Data.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers\Auth\Dto" />
+      <Folder Include="Controllers\Auth\Response" />
+      <Folder Include="Controllers\Device\Dto" />
+      <Folder Include="Controllers\Device\Response" />
+      <Folder Include="Controllers\Object\Response" />
+      <Folder Include="Controllers\User\Response" />
+    </ItemGroup>
+
+</Project>
